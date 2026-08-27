@@ -64,3 +64,10 @@ output/figures/*.pdf
 
 # === Arquivos temporários do Office ===
 ~$*
+
+# === Salvaguarda: nomes com acento podem não casar os padrões acima ===
+*Lattes*
+*urrículo*
+*urriculo*
+*assinado*.pdf
+CNH*
