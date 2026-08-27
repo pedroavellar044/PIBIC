@@ -1,0 +1,66 @@
+# === Dados pesados (não versionar) ===
+data/raw/
+data/processed/
+*.tif
+*.tiff
+*.img
+*.nc
+*.hdf
+*.shp
+*.shx
+*.dbf
+*.prj
+*.gpkg
+*.geojson
+*.parquet
+*.zip
+*.7z
+# exceção: permitir shapefiles pequenos essenciais, se necessário, com git add -f
+
+# === R ===
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# === Python ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# === Google Earth Engine / credenciais ===
+*.credentials
+.config/earthengine/
+service-account*.json
+
+# === Sistema / editores ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# === Saídas grandes (manter só as finais versionadas manualmente) ===
+output/figures/*.png
+output/figures/*.pdf
+!output/figures/.gitkeep
+
+# === Documentos pessoais / sensíveis (NÃO publicar) ===
+/CNH-e.pdf.pdf
+/Currículo do Sistema de Currículos Lattes (Pedro Cardoso Milazzo Avellar Leal).pdf
+/PHOTO-2025-08-08-16-33-13.jpg
+/PIBIC_Pedro_assinado.pdf
+/PIBIC_Pedro_assinado_assinado.pdf
+/iniciacao-cientifica-ficha-de-inscricao_Pedro.Avellar.docx
+
+# === Papers de terceiros (copyright — não versionar) ===
+/dix-carneiro-et-al-2018-economic-shocks-and-crime-evidence-from-the-brazilian-trade-liberalization.pdf
+/dp17425.pdf
+/first_chapter_v6.pdf
+/reorganizingCrime.pdf
+
+# === Arquivos temporários do Office ===
+~$*
