@@ -71,3 +71,6 @@ output/figures/*.pdf
 *urriculo*
 *assinado*.pdf
 CNH*
+
+# Carta de intenções / documento pessoal
+/Personal-Statement.docx
